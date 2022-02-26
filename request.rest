@@ -1,0 +1,27 @@
+GET http://localhost:3001/todos 
+
+###
+
+POST http://localhost:3001/todo/new 
+Content-Type: application/json
+
+{
+"text": "mamar cuca"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6210769a988f5f6ee9424b28
+
+###
+
+GET http://localhost:3001/todo/complete/62107614988f5f6ee9424b23
+
+###
+
+PUT http://localhost:3001/todo/update/62107614988f5f6ee9424b23
+Content-Type: application/json
+
+{
+"text": "ESTUDIAR PROGRAMACIÓN"
+}
